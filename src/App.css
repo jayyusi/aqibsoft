@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS HEX */
+/* --bdazzled-blue: #3d5a80ff;
+--pale-cerulean: #98c1d9ff;
+--light-cyan: #e0fbfcff;
+--burnt-sienna: #ee6c4dff;
+--gunmetal: #293241ff; */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #3d5a80ff;
+  color: white;
+}
+
+.navlink {
+  color: #98c1d9ff;
+  list-style: none;
+  display: inline;
+}
+
+.navlink li {
+  float: left;
+  margin: 0.5rem;
+  width: 15%;
+}
+
+.logo {
+  width: 60%;
+}
